@@ -1,0 +1,357 @@
+[
+    {
+        "id": "putuser",
+        "path": "\\user",
+        "method": "PUT",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "postuser",
+        "path": "\\user",
+        "method": "POST",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "getuser",
+        "path": "\\user",
+        "method": "GET",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "getuseruserid",
+        "path": "\\user\\:userid",
+        "method": "GET",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "deleteuser",
+        "path": "\\user",
+        "method": "DELETE",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "puttag",
+        "path": "\\tag",
+        "method": "PUT",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "gettag",
+        "path": "\\tag",
+        "method": "GET",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "gettagtagid",
+        "path": "\\tag\\:tagid",
+        "method": "GET",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "deletetag",
+        "path": "\\tag",
+        "method": "DELETE",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "putcategory",
+        "path": "\\category",
+        "method": "PUT",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "getcategory",
+        "path": "\\category",
+        "method": "GET",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "deletecategory",
+        "path": "\\category",
+        "method": "DELETE",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "putfavorite",
+        "path": "\\favorite",
+        "method": "PUT",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "deletefavorite",
+        "path": "\\favorite",
+        "method": "DELETE",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "deletefavoriteall",
+        "path": "\\favorite\\all",
+        "method": "DELETE",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "postfavorite",
+        "path": "\\favorite",
+        "method": "POST",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "putrateing",
+        "path": "\\rateing",
+        "method": "PUT",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "patchrateing",
+        "path": "\\rateing",
+        "method": "PATCH",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "deleterateing",
+        "path": "\\rateing",
+        "method": "DELETE",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "deleterateingall",
+        "path": "\\rateing\\all",
+        "method": "DELETE",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "postrateing",
+        "path": "\\rateing",
+        "method": "POST",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "putmeal",
+        "path": "\\meal",
+        "method": "PUT",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "patchmeal",
+        "path": "\\meal",
+        "method": "PATCH",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "postmeal",
+        "path": "\\meal",
+        "method": "POST",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "middleware",
+            "middleware",
+            "<anonymous>"
+        ]
+    },
+    {
+        "id": "deletemeal",
+        "path": "\\meal",
+        "method": "DELETE",
+        "stack": [
+            "query",
+            "expressInit",
+            "jsonParser",
+            "loggingMiddleware",
+            "<anonymous>"
+        ]
+    }
+]
